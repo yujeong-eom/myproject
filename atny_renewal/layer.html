@@ -1,0 +1,2189 @@
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++
+@@ #HTML_HEADER @@
+- 파일위치 : [스킨폴더]/_modules/common/html_header.html
+++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko" xmlns:fb="http://ogp.me/ns/fb#" xmlns:og="http://ogp.me/ns#">
+
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/fb/website#">
+    <meta charset="utf-8">
+
+
+
+    <meta name="google-site-verification" content="6DCMfOpRCkUKMfu6_DRDnoXJM1M73Ug6sQKg3DP1da0" />
+    <meta name="naver-site-verification" content="c25c2fa38a04466ec9f204a3e4f542c61b39c8be" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <title>THE HIGH-END CURATOR, ATNY</title>
+
+    <!-- SEO 설정이 있을경우 -->
+    <meta name="Robots" content="index,follow" />
+    <meta name="title" content="THE HIGH-END CURATOR, ATNY" />
+    <meta name="author" content="ATNY" />
+    <meta name="description" content="하이엔드 큐레이터 애트니" />
+    <meta name="keywords" content="atny,애트니, 럭셔리, 명품" />
+
+    <meta property="og:url" content="http://atny.com/" />
+    <meta property="og:site_name" content="ATNY" />
+    <meta property="og:title" content="THE HIGH-END CURATOR, ATNY" />
+    <meta property="og:description" content="명품이 가치를 더하는 순간, 애트니" />
+
+    <meta property="fb:app_id" content="2771223026276592" />
+    <meta property="og:type" content="website" />
+
+
+    <meta property="og:image" content="http://atny.firstmall.kr/data/skin/responsive_ver2/images/linkImg.jpg" />
+    <link rel="image_src" href="http://atny.firstmall.kr/data/skin/responsive_ver2/images/linkImg.jpg" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="http://www.atny.com/data/font/font.css" />
+    <link rel="stylesheet" href="http://www.atny.com/data/skin/responsive_ver2/css/renewal.css?v=20210108110922">
+
+    <!-- 구글 웹폰트 -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700&amp;subset=korean" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="http://www.atny.com/data/skin/responsive_ver2/css/jqueryui/black-tie/jquery-ui-1.8.16.custom.css" />
+    <link rel="stylesheet" type="text/css" href="http://www.atny.com/app/javascript/plugin/slick/slick.css"><!-- 반응형 슬라이드 -->
+    <link rel="stylesheet" type="text/css" href="http://www.atny.com/data/design/goods_info_style.css"><!-- 상품디스플레이 CSS -->
+    <link rel="stylesheet" type="text/css" href="http://www.atny.com/data/design/goods_info_user.css"><!-- ++++++++++++ 상품디스플레이 사용자/제작자 CSS ++++++++++++ -->
+    <link rel="stylesheet" type="text/css" href="http://www.atny.com/data/skin/responsive_ver2/css/lib.css" />
+    <link rel="stylesheet" type="text/css" href="http://www.atny.com/data/skin/responsive_ver2/css/common.css?&v=2021010811" />
+    <link rel="stylesheet" type="text/css" href="http://www.atny.com/data/skin/responsive_ver2/css/board.css" />
+    <link rel="stylesheet" type="text/css" href="http://www.atny.com/data/skin/responsive_ver2/css/buttons.css" />
+    <link rel="stylesheet" type="text/css" href="http://www.atny.com/data/skin/responsive_ver2/css/mobile_pagination.css" />
+    <link rel="stylesheet" type="text/css" href="/link/css?k=quickdesign&v=2021010811" /><!-- Quick Design CSS -->
+    <link rel="stylesheet" type="text/css" href="http://www.atny.com/data/skin/responsive_ver2/css/user.css?&v=2021010811_1" /><!-- ++++++++++++ 스킨 사용자/제작자 CSS ++++++++++++ -->
+    <link rel="stylesheet" type="text/css" href="http://www.atny.com/data/skin/responsive_ver2/css/user2.css?&v=2021010811_1" /><!-- ++++++++++++ 스킨 사용자/제작자 CSS ++++++++++++ -->
+    <!-- 파비콘 -->
+    <link rel="shortcut icon" href="http://atny.firstmall.kr//data/icon/favicon/favicon1578557466.ico" />
+    <link rel="stylesheet" href="http://www.atny.com/app/javascript/plugin/touchSlider/swiper.css" />
+    <link rel="stylesheet" href="http://www.atny.com/data/skin/responsive_ver2/css/final_style.css?&v=2021010811">
+
+    <!-- /CSS -->
+
+</head>
+
+<body>
+
+
+    <!--facebook area-->
+    <div id="fb-root"></div>
+    <!--facebook area end-->
+
+
+    <!--[ 디자인모드 호출 스크립트]-->
+
+    <!--[ 모바일쇼핑몰 디자인모드시 화면 구성 ]-->
+
+    <style>
+        #layer_pay {
+            position: absolute;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+            background-color: #ffffff;
+            text-align: center;
+            z-index: 999999;
+        }
+
+        #payprocessing {
+            text-align: center;
+            position: absolute;
+            width: 100%;
+            top: 150px;
+            z-index: 99999999px;
+        }
+
+    </style>
+    <div id="wrap">
+        <!-- top button -->
+        <a href="#" class="btn_top ">top으로 이동</a>
+        <!-- //top button -->
+        <!-- ================= 어사이드 :: START. 파일위치 : _modules/common/layout_side.html (비동기 로드) ================= -->
+        <div id="layout_side" class="layout_side"></div>
+        <!-- ================= 어사이드 :: END. 파일위치 : _modules/common/layout_side.html (비동기 로드) ================= -->
+        <a href="javascript:;" id="side_close" class="side_close">어사이드 닫기</a>
+
+        <div id="layout_wrap" class="layout_wrap ">
+            <!-- ================= #LAYOUT_HEADER :: START. 파일위치 : layout_header/standard.html (default) ================= -->
+            <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++
+@@ #LAYOUT_HEADER @@
+- 파일위치 : [스킨폴더]/layout_header/standard.html
+++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+            <script type="text/javascript" src="http://www.atny.com/data/skin/responsive_ver2/common/search_ver2_ready.js"></script>
+
+
+            <div class="atny_top_ban">
+                <div class="ban_slider">
+                    <div class="item slick-slide">
+                        <a href="https://www.atny.com/board/view?id=notice&seq=1118">
+                            회원가입 1만원 + 앱 전용 1만원 쿠폰 받으러 가기 →
+                        </a>
+                    </div>
+                </div>
+                <button type="button" class="btn_clse">닫기</button>
+            </div>
+
+            <div id="header" class="header main">
+                <div class="header_cont">
+                    <div class="header_inner">
+                        <div class="header_top">
+                            <button type="button" class="btn_menu"><span class="screen_out">메뉴</span><span class="bar"></span></button>
+                            <div class="lst_navi">
+                                <a href="javascript:history.go(-1);" class="button_back">뒤로</a>
+                                <a href="javascript:;" class="txt_navi" id="categoryAllBtn_layer"></a>
+                            </div>
+                            <span class="logo" onclick="location.href='/';">ATNY</span>
+                            <!-- right_menu -->
+                            <div class="rig_menu">
+                                <ul>
+                                    <li><a href="#"><span class="screen_out">검색</span><i class="ico_srch"></i></a></li>
+                                    <li class="m_myp"><a href="/mypage">
+                                            <sppageTitlean class="screen_out">마이페이지</sppageTitlean><i class="ico_myp"></i>
+                                        </a></li>
+                                    <li><a href="/order/cart"><span class="screen_out">장바구니</span><i class="ico_cart"></i></a></li>
+                                </ul>
+                            </div>
+                            <!-- //right_menu -->
+                        </div>
+                        <!-- 전체 카테고리 -->
+                        <div class="gnb_wrap">
+                            <div class="layer_top">
+                                <a href="javascript:;" class="close">close</a>
+                            </div>
+                            <div class="gnb_menu">
+                                <div class="gnb_li_box">
+                                    <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++
+@@ 카테고리 네비게이션 @@
+- 파일위치 : [스킨폴더]/_modules/category/category_gnb.html
+- 현재 3뎁스까지 노출 가능
+++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+                                    <ul class="dep1_ul layer_category ">
+                                        <li class="dep1 sub_dep1">
+                                            <span class="dep1_tit dep1_titc"><a href="/goods/catalog?code=0002"><b>WOMEN</b></a></span>
+                                            <div class="dep2">
+                                                <div class="layer_top">
+                                                    <a href="javascript:history.go(-1);" class="back">back</a>
+                                                    <a href="javascript:;" class="close">close</a>
+                                                </div>
+                                                <ul class="dep2_box">
+                                                    <li class="dep2_tit"><span><b>WOMEN</b></span><!-- 1dep 링크제거 /goods/catalog?code=0002 -->
+                                                        <ul class="dep2_ul">
+                                                            <li class="categoryDepth2">
+                                                                <a class="for_pc" href="/goods/catalog?code=00020001">가방</a>
+                                                                <span class="for_m">가방</span>
+                                                                <div class="dep3_ul">
+                                                                    <div class="layer_top">
+                                                                        <a href="javascript:history.go(-1);" class="back">back</a>
+                                                                        <a href="javascript:;" class="close">close</a>
+                                                                    </div>
+                                                                    <div class="dep3_tit">가방</div>
+                                                                    <ul class="categorySub">
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000200010001">토트 백</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000200010002">숄더 &AMP; 크로스 백</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000200010003">클러치 &AMP; 파우치</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000200010004">백팩</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000200010005">비즈니스 백</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000200010006">트래블 백</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000200010007">벨트 백</a></li>
+                                                                    </ul>
+                                                                    <a href="/goods/catalog?code=00020001" class="more for_m">전체보기</a>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                        <ul class="dep2_ul">
+                                                            <li class="categoryDepth2">
+                                                                <a class="for_pc" href="/goods/catalog?code=00020002">지갑</a>
+                                                                <span class="for_m">지갑</span>
+                                                                <div class="dep3_ul">
+                                                                    <div class="layer_top">
+                                                                        <a href="javascript:history.go(-1);" class="back">back</a>
+                                                                        <a href="javascript:;" class="close">close</a>
+                                                                    </div>
+                                                                    <div class="dep3_tit">지갑</div>
+                                                                    <ul class="categorySub">
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000200020001">카드홀더</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000200020002">반지갑</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000200020003">장지갑</a></li>
+                                                                    </ul>
+                                                                    <a href="/goods/catalog?code=00020002" class="more for_m">전체보기</a>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                        <ul class="dep2_ul">
+                                                            <li class="categoryDepth2">
+                                                                <a class="for_pc" href="/goods/catalog?code=00020003">의류</a>
+                                                                <span class="for_m">의류</span>
+                                                                <div class="dep3_ul">
+                                                                    <div class="layer_top">
+                                                                        <a href="javascript:history.go(-1);" class="back">back</a>
+                                                                        <a href="javascript:;" class="close">close</a>
+                                                                    </div>
+                                                                    <div class="dep3_tit">의류</div>
+                                                                    <ul class="categorySub">
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000200030001">상의</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000200030002">팬츠 &AMP; 스커트</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000200030003">원피스 &AMP; 슈트</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000200030005">아웃웨어</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000200030006">언더웨어</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000200030007">시즌의류</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000200030008">스포츠웨어</a></li>
+                                                                    </ul>
+                                                                    <a href="/goods/catalog?code=00020003" class="more for_m">전체보기</a>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                        <ul class="dep2_ul">
+                                                            <li class="categoryDepth2">
+                                                                <a class="for_pc" href="/goods/catalog?code=00020004">신발</a>
+                                                                <span class="for_m">신발</span>
+                                                                <div class="dep3_ul">
+                                                                    <div class="layer_top">
+                                                                        <a href="javascript:history.go(-1);" class="back">back</a>
+                                                                        <a href="javascript:;" class="close">close</a>
+                                                                    </div>
+                                                                    <div class="dep3_tit">신발</div>
+                                                                    <ul class="categorySub">
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000200040001">스니커즈</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000200040002">로퍼 &AMP; 레이스업</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000200040003">플립플랍 &AMP; 슬리퍼</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000200040004">에스파드류</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000200040005">샌들</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000200040006">부츠</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000200040007">플랫</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000200040008">미디 힐</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000200040009">하이 힐</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000200040010">뮬</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000200040011">슬립온</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000200040012">드레스 슈즈</a></li>
+                                                                    </ul>
+                                                                    <a href="/goods/catalog?code=00020004" class="more for_m">전체보기</a>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                        <ul class="dep2_ul">
+                                                            <li class="categoryDepth2">
+                                                                <a class="for_pc" href="/goods/catalog?code=00020005">액세서리</a>
+                                                                <span class="for_m">액세서리</span>
+                                                                <div class="dep3_ul">
+                                                                    <div class="layer_top">
+                                                                        <a href="javascript:history.go(-1);" class="back">back</a>
+                                                                        <a href="javascript:;" class="close">close</a>
+                                                                    </div>
+                                                                    <div class="dep3_tit">액세서리</div>
+                                                                    <ul class="categorySub">
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000200050001">키링 &AMP; 키홀더</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000200050002">모바일 케이스</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000200050003">벨트</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000200050004">서스펜더</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000200050005">머플러 &AMP; 스카프</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000200050006">선글라스 &AMP; 프레임</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000200050007">모자</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000200050008">넥타이</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000200050009">장갑</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000200050010">시계</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000200050011">우산</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000200050012">가방 액세서리</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000200050013">헤어 액세서리</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000200050014">기타 액세서리</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000200050015">주얼리</a></li>
+                                                                    </ul>
+                                                                    <a href="/goods/catalog?code=00020005" class="more for_m">전체보기</a>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                        <a href="/goods/catalog?code=0002" class="more for_m">전체보기</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <ul class="dep1_ul layer_category ">
+                                        <li class="dep1 sub_dep1">
+                                            <span class="dep1_tit dep1_titc"><a href="/goods/catalog?code=0001"><b>MEN</b></a></span>
+                                            <div class="dep2">
+                                                <div class="layer_top">
+                                                    <a href="javascript:history.go(-1);" class="back">back</a>
+                                                    <a href="javascript:;" class="close">close</a>
+                                                </div>
+                                                <ul class="dep2_box">
+                                                    <li class="dep2_tit"><span><b>MEN</b></span><!-- 1dep 링크제거 /goods/catalog?code=0001 -->
+                                                        <ul class="dep2_ul">
+                                                            <li class="categoryDepth2">
+                                                                <a class="for_pc" href="/goods/catalog?code=00010001">가방</a>
+                                                                <span class="for_m">가방</span>
+                                                                <div class="dep3_ul">
+                                                                    <div class="layer_top">
+                                                                        <a href="javascript:history.go(-1);" class="back">back</a>
+                                                                        <a href="javascript:;" class="close">close</a>
+                                                                    </div>
+                                                                    <div class="dep3_tit">가방</div>
+                                                                    <ul class="categorySub">
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000100010001">토트 백</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000100010002">숄더 &AMP; 크로스 백</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000100010003">클러치 &AMP; 파우치</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000100010004">백팩</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000100010005">비즈니스 백</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000100010006">트래블 백</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000100010007">벨트백</a></li>
+                                                                    </ul>
+                                                                    <a href="/goods/catalog?code=00010001" class="more for_m">전체보기</a>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                        <ul class="dep2_ul">
+                                                            <li class="categoryDepth2">
+                                                                <a class="for_pc" href="/goods/catalog?code=00010002">지갑</a>
+                                                                <span class="for_m">지갑</span>
+                                                                <div class="dep3_ul">
+                                                                    <div class="layer_top">
+                                                                        <a href="javascript:history.go(-1);" class="back">back</a>
+                                                                        <a href="javascript:;" class="close">close</a>
+                                                                    </div>
+                                                                    <div class="dep3_tit">지갑</div>
+                                                                    <ul class="categorySub">
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000100020001">지갑/기타</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000100020002">카드홀더</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000100020003">반지갑</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000100020004">장지갑</a></li>
+                                                                    </ul>
+                                                                    <a href="/goods/catalog?code=00010002" class="more for_m">전체보기</a>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                        <ul class="dep2_ul">
+                                                            <li class="categoryDepth2">
+                                                                <a class="for_pc" href="/goods/catalog?code=00010003">의류</a>
+                                                                <span class="for_m">의류</span>
+                                                                <div class="dep3_ul">
+                                                                    <div class="layer_top">
+                                                                        <a href="javascript:history.go(-1);" class="back">back</a>
+                                                                        <a href="javascript:;" class="close">close</a>
+                                                                    </div>
+                                                                    <div class="dep3_tit">의류</div>
+                                                                    <ul class="categorySub">
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000100030001">상의</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000100030002">팬츠</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000100030003">수트</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000100030005">아웃웨어</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000100030006">언더웨어</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000100030007">시즌 의류</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000100030008">스포츠웨어</a></li>
+                                                                    </ul>
+                                                                    <a href="/goods/catalog?code=00010003" class="more for_m">전체보기</a>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                        <ul class="dep2_ul">
+                                                            <li class="categoryDepth2">
+                                                                <a class="for_pc" href="/goods/catalog?code=00010004">신발</a>
+                                                                <span class="for_m">신발</span>
+                                                                <div class="dep3_ul">
+                                                                    <div class="layer_top">
+                                                                        <a href="javascript:history.go(-1);" class="back">back</a>
+                                                                        <a href="javascript:;" class="close">close</a>
+                                                                    </div>
+                                                                    <div class="dep3_tit">신발</div>
+                                                                    <ul class="categorySub">
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000100040001">스니커즈</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000100040002">슬립온</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000100040003">로퍼</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000100040004">플립플랍 &AMP; 슬리퍼</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000100040005">에스파드류</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000100040006">샌들</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000100040007">부츠</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000100040008">뮬</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000100040009">드레스 슈즈</a></li>
+                                                                    </ul>
+                                                                    <a href="/goods/catalog?code=00010004" class="more for_m">전체보기</a>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                        <ul class="dep2_ul">
+                                                            <li class="categoryDepth2">
+                                                                <a class="for_pc" href="/goods/catalog?code=00010005">액세서리</a>
+                                                                <span class="for_m">액세서리</span>
+                                                                <div class="dep3_ul">
+                                                                    <div class="layer_top">
+                                                                        <a href="javascript:history.go(-1);" class="back">back</a>
+                                                                        <a href="javascript:;" class="close">close</a>
+                                                                    </div>
+                                                                    <div class="dep3_tit">액세서리</div>
+                                                                    <ul class="categorySub">
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000100050001">벨트</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000100050002">선글라스 &AMP; 프레임</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000100050003">머플러 &AMP; 스카프</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000100050004">모자</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000100050005">넥타이</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000100050006">모바일 케이스</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000100050007">키링 &AMP; 키홀더</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000100050008">장갑</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000100050009">우산</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000100050010">서스펜더</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000100050011">시계</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000100050012">가방 액세서리</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000100050013">헤어 액세서리</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000100050014">기타 액세서리</a></li>
+                                                                        <li class="categorySubDepth"><a href="/goods/catalog?code=000100050015">주얼리</a></li>
+                                                                    </ul>
+                                                                    <a href="/goods/catalog?code=00010005" class="more for_m">전체보기</a>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                        <a href="/goods/catalog?code=0001" class="more for_m">전체보기</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+
+                                    <ul class="dep1_ul ">
+                                        <li class="dep1">
+                                            <span class="dep1_tit"><a href="/goods/oneday_delivery">하루배송</a></span>
+                                        </li>
+                                    </ul>
+
+                                    <ul class="dep1_ul layer_lowprice ">
+                                        <li class="dep1">
+                                            <span class="dep1_tit"><a href="/goods/low_price">투데이 최저가 존</a></span>
+                                        </li>
+                                    </ul>
+
+                                    <ul class="dep1_ul layer_sale ">
+                                        <li class="dep1 sub_dep1">
+                                            <span class="dep1_tit"><a href="/goods/sale">SALE</a></span>
+                                            <div class="dep2">
+                                                <div class="layer_top">
+                                                    <a href="javascript:history.go(-1);" class="back">back</a>
+                                                    <a href="javascript:;" class="close">close</a>
+                                                </div>
+                                                <div class="dep2_box">
+                                                    <div class="dep2_tit"><span><b>BEST SELLER</b></span></div>
+                                                    <div class="bestclick_section layer_li box dep2_ul">
+                                                        <!-- bestclick_section -->
+                                                        <div class="categoryDepth2">
+                                                            <strong class="for_pc for_m">PREVIOUS SEASONS</strong>
+                                                            <div class="dep3_ul">
+                                                                <div class="layer_top">
+                                                                    <a href="javascript:history.go(-1);" class="back">back</a>
+                                                                    <a href="javascript:;" class="close">close</a>
+                                                                </div>
+                                                                <div class="dep3_tit">PREVIOUS SEASONS</div>
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="/goods/sale?category=00020001">
+                                                                            <span>BAGS</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="/goods/sale?category=00020003">
+                                                                            <span>CLOTHING</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="/goods/sale?category=00020004">
+                                                                            <span>SHOES</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="/goods/sale?category=00020005">
+                                                                            <span>ACCESSORIES</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <a href="/goods/sale" class="more">전체보기</a>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="bestclick_section layer_li box dep2_ul">
+                                                        <div class="categoryDepth2">
+                                                            <strong class="for_pc for_m">DESIGNERS SALE</strong>
+                                                            <div class="dep3_ul">
+                                                                <div class="layer_top">
+                                                                    <a href="javascript:history.go(-1);" class="back">back</a>
+                                                                    <a href="javascript:;" class="close">close</a>
+                                                                </div>
+                                                                <div class="dep3_tit">DESIGNERS SALE</div>
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="/goods/sale?brand%5B0%5D=0009">
+                                                                            <span>MONCLER GENIUS</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="/goods/sale?brand%5B0%5D=0015">
+                                                                            <span>A-COLD-WALL*</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="/goods/sale?brand%5B0%5D=0045">
+                                                                            <span>ALEXANDER McQUEEN</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="/goods/sale?brand%5B0%5D=0046">
+                                                                            <span>ALEXANDER WANG</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="/goods/sale?brand%5B0%5D=0065">
+                                                                            <span>JW ANDERSON</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <a href="/goods/sale" class="more">전체보기</a>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="bestitem_section layer_li box dep2_ul">
+                                                        <div class="categoryDepth2">
+                                                            <strong class="for_pc for_m">SALE SELECTION</strong>
+                                                            <div class="dep3_ul">
+                                                                <div class="layer_top">
+                                                                    <a href="javascript:history.go(-1);" class="back">back</a>
+                                                                    <a href="javascript:;" class="close">close</a>
+                                                                </div>
+                                                                <div class="dep3_tit">SALE SELECTION</div>
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="/promotion/event_view?event=23">
+                                                                            <span>디올백 99,999원 이벤트</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="/promotion/event_view?event=91">
+                                                                            <span>패딩 초특가! 균일가전 449,000~</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="/promotion/event_view?event=95">
+                                                                            <span>제시가 선택한 슈즈, 로저비비에</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="/promotion/event_view?event=94">
+                                                                            <span>ATNY BEST AWARDS</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="/promotion/event_view?event=86">
+                                                                            <span>가볍게 움켜쥐다, Clutch Bag</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="/promotion/event_view?event=89">
+                                                                            <span>실용적인 미니멀리즘, 프라다</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="/promotion/event_view?event=57">
+                                                                            <span>프리미엄 패딩페스티벌</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="/promotion/event_view?event=36">
+                                                                            <span>소유하고 싶은 지갑 컬렉션</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="/promotion/event_view?event=21">
+                                                                            <span>가방 특가 ~50% SALE</span>
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!--/ bestitem_section -->
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++
+@@ 브랜드 네비게이션 @@
+- 파일위치 : [스킨폴더]/_modules/brand/brand_gnb.html
+- 현재 2뎁스까지 노출 가능( 3뎁스 이하 노출은 스킨제작자 매뉴얼 참고 )
+++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+                                    <ul class="dep1_ul layer_design ">
+                                        <li class="dep1 sub_dep1"><span class="dep1_tit"><a href="/goods/best_designers">디자이너</a></span>
+                                            <div class="dep2">
+                                                <div class="layer_top">
+                                                    <a href="javascript:history.go(-1);" class="back">back</a>
+                                                    <a href="javascript:;" class="close">close</a>
+                                                </div>
+                                                <div class="dep2_box">
+                                                    <div class="dep2_tit"><span><b>DESIGNERS</b></div>
+                                                    <!-- 퍼블리싱 : 하드코딩 -->
+                                                    <div class="design_search box dep2_ul">
+                                                        <div class="categoryDepth2">
+                                                            <strong class="for_pc for_m">DESIGNERS SEARCH</strong>
+                                                            <div class="dep3_ul">
+                                                                <div class="layer_top">
+                                                                    <a href="javascript:history.go(-1);" class="back">back</a>
+                                                                    <a href="#" onclick="return false();" class="close">close</a>
+                                                                </div>
+                                                                <div class="dep3_tit">DESIGNERS SEARCH</div>
+
+                                                                <ul class="abc_list">
+                                                                    <li><a href="/goods/brand_main?lid=YQ__">A</a></li>
+                                                                    <li><a href="/goods/brand_main?lid=Yg__">B</a></li>
+                                                                    <li><a href="/goods/brand_main?lid=Yw__">C</a></li>
+                                                                    <li><a href="/goods/brand_main?lid=ZA__">D</a></li>
+                                                                    <li><a href="/goods/brand_main?lid=ZQ__">E</a></li>
+                                                                    <li><a href="/goods/brand_main?lid=Zg__">F</a></li>
+                                                                    <li><a href="/goods/brand_main?lid=Zw__">G</a></li>
+                                                                    <li><a href="/goods/brand_main?lid=aA__">H</a></li>
+                                                                    <li><a href="/goods/brand_main?lid=aQ__">I</a></li>
+                                                                    <li><a href="/goods/brand_main?lid=ag__">J</a></li>
+                                                                    <li><a href="/goods/brand_main?lid=aw__">K</a></li>
+                                                                    <li><a href="/goods/brand_main?lid=bA__">L</a></li>
+                                                                    <li><a href="/goods/brand_main?lid=bQ__">M</a></li>
+                                                                    <li><a href="/goods/brand_main?lid=bg__">N</a></li>
+                                                                    <li><a href="/goods/brand_main?lid=bw__">O</a></li>
+                                                                    <li><a href="/goods/brand_main?lid=cA__">P</a></li>
+                                                                    <li><a href="/goods/brand_main?lid=cQ__">Q</a></li>
+                                                                    <li><a href="/goods/brand_main?lid=cg__">R</a></li>
+                                                                    <li><a href="/goods/brand_main?lid=cw__">S</a></li>
+                                                                    <li><a href="/goods/brand_main?lid=dA__">T</a></li>
+                                                                    <li><a href="/goods/brand_main?lid=dQ__">U</a></li>
+                                                                    <li><a href="/goods/brand_main?lid=dg__">V</a></li>
+                                                                    <li><a href="/goods/brand_main?lid=dw__">W</a></li>
+                                                                    <li><a href="/goods/brand_main?lid=eA__">X</a></li>
+                                                                    <li><a href="/goods/brand_main?lid=eQ__">Y</a></li>
+                                                                    <li><a href="/goods/brand_main?lid=eg__">Z</a></li>
+                                                                </ul>
+                                                                <a href="/goods/brand_main" class="more">전체보기</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="design_best layer_li box dep2_ul">
+                                                        <div class="categoryDepth2">
+                                                            <strong class="for_pc for_m">BEST DESIGNERS</strong>
+                                                            <div class="dep3_ul">
+                                                                <div class="layer_top">
+                                                                    <a href="javascript:history.go(-1);" class="back">back</a>
+                                                                    <a href="javascript:;" class="close">close</a>
+                                                                </div>
+                                                                <div class="dep3_tit">BEST DESIGNERS</div>
+                                                                <ol class="">
+                                                                    <li><a href="/goods/brand?code=0192">CHANEL</a></li>
+                                                                    <li><a href="/goods/brand?code=0065">JW ANDERSON</a></li>
+                                                                    <li><a href="/goods/brand?code=0379">GOLDEN GOOSE</a></li>
+                                                                    <li><a href="/goods/brand?code=0199">CHLOE</a></li>
+                                                                    <li><a href="/goods/brand?code=0202">DIOR</a></li>
+                                                                    <li><a href="/goods/brand?code=0520">LOEWE</a></li>
+                                                                    <li><a href="/goods/brand?code=0267">RICK OWENS</a></li>
+                                                                    <li><a href="/goods/brand?code=0626">MULBERRY</a></li>
+                                                                    <li><a href="/goods/brand?code=0546">MAISON MARGIELA</a></li>
+                                                                    <li><a href="/goods/brand?code=0106">BALENCIAGA</a></li>
+                                                                </ol>
+                                                                <a href="/goods/best_designers" class="more">전체보기</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="design_new layer_li box dep2_ul">
+                                                        <div class="categoryDepth2">
+                                                            <strong class="for_pc for_m">NEW DESIGNERS</strong>
+                                                            <div class="dep3_ul">
+                                                                <div class="layer_top">
+                                                                    <a href="javascript:history.go(-1);" class="back">back</a>
+                                                                    <a href="javascript:;" class="close">close</a>
+                                                                </div>
+                                                                <div class="dep3_tit">NEW DESIGNERS</div>
+                                                                <ul>
+                                                                    <li><a href="/goods/brand?code=0267">RICK OWENS</a></li>
+                                                                    <li><a href="/goods/brand?code=0546">MAISON MARGIELA</a></li>
+                                                                    <li><a href="/goods/brand?code=0790">SAINT LAURENT</a></li>
+                                                                    <li><a href="/goods/brand?code=0794">SALVATORE FERRAGAMO</a></li>
+                                                                    <li><a href="/goods/brand?code=0751">VALENTINO</a></li>
+                                                                    <li><a href="/goods/brand?code=0626">MULBERRY</a></li>
+                                                                    <li><a href="/goods/brand?code=0439">JACQUEMUS</a></li>
+                                                                    <li><a href="/goods/brand?code=0379">GOLDEN GOOSE</a></li>
+                                                                    <li><a href="/goods/brand?code=0267">RICK OWENS</a></li>
+                                                                    <li><a href="/goods/brand?code=0009">MONCLER</a></li>
+                                                                </ul>
+                                                                <!--<a href="#" class="more">전체보기</a>-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!--
+				<div class="layer_bnr">
+					<ul>
+						<li>
+							<img src="http://www.atny.com/data/skin/responsive_ver2/images/da_image/gnb_layer04_bnr01.jpg" alt="" title="">
+							<div class="txt">
+								<strong>NEW DESIGNERS : GIANVITO ROSSI</strong>
+								<span>새로운 감성의 하이힐</span>
+							</div>
+						</li>
+						<li>
+							<img src="http://www.atny.com/data/skin/responsive_ver2/images/da_image/gnb_layer01_bnr02.jpg" alt="" title="">
+							<div class="txt">
+								<strong>NEW DESIGNERS : GIANVITO ROSSI</strong>
+								<span>새로운 감성의 하이힐</span>
+							</div>
+						</li>
+						<li>
+							<img src="http://www.atny.com/data/skin/responsive_ver2/images/da_image/gnb_layer01_bnr03.jpg" alt="" title="">
+							<div class="txt">
+								<strong>NEW DESIGNERS : THE ROW</strong>
+								<span>새로운 바캉스 룩</span>
+							</div>
+						</li>
+					</ul>
+				</div>
+				-->
+                                                </div>
+                                            </div>
+                                            <!--/ dep2 -->
+                                        </li>
+                                        <!--/ dep1 -->
+                                    </ul>
+                                    <!--/ dep1_ul -->
+                                    <ul class="dep1_ul layer_best ">
+                                        <li class="dep1 sub_dep1">
+                                            <span class="dep1_tit"><a href="/goods/best_seller">베스트셀러</a></span>
+                                            <div class="dep2">
+                                                <div class="layer_top">
+                                                    <a href="javascript:history.go(-1);" class="back">back</a>
+                                                    <a href="javascript:;" class="close">close</a>
+                                                </div>
+                                                <div class="dep2_box">
+                                                    <div class="dep2_tit"><span><b>BEST SELLER</b></span></div>
+                                                    <div class="bestclick_section layer_li box dep2_ul">
+                                                        <div class="categoryDepth2">
+                                                            <strong class="for_pc for_m">BEST CLICK</strong>
+                                                            <div class="dep3_ul">
+                                                                <div class="layer_top">
+                                                                    <a href="javascript:history.go(-1);" class="back">back</a>
+                                                                    <a href="javascript:;" class="close">close</a>
+                                                                </div>
+                                                                <div class="dep3_tit">BEST CLICK</div>
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="/goods/best_seller?catetab=bags">
+                                                                            <span>BAGS</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="/goods/best_seller?catetab=clothing">
+                                                                            <span>CLOTHING</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="/goods/best_seller?catetab=shoes">
+                                                                            <span>SHOES</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="/goods/best_seller?catetab=acc">
+                                                                            <span>ACCESSORIES</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <a href="/goods/best_seller" class="more">전체보기</a>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="bestitem_section layer_li box dep2_ul">
+                                                        <div class="categoryDepth2">
+                                                            <strong class="for_pc for_m">BEST ITEM</strong>
+                                                            <div class="dep3_ul">
+                                                                <div class="layer_top">
+                                                                    <a href="javascript:history.go(-1);" class="back">back</a>
+                                                                    <a href="javascript:;" class="close">close</a>
+                                                                </div>
+                                                                <div class="dep3_tit">BEST ITEM</div>
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="/goods/best_seller?tab=item&catetab=bags">
+                                                                            <span>BAGS</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="/goods/best_seller?tab=item&catetab=clothing">
+                                                                            <span>CLOTHING</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="/goods/best_seller?tab=item&catetab=shoes">
+                                                                            <span>SHOES</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="/goods/best_seller?tab=item&catetab=acc">
+                                                                            <span>ACCESSORIES</span>
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                                <a href="/goods/best_seller?tab=item" class="more">전체보기</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    <ul class="dep1_ul layer_special ">
+                                        <li class="dep1 sub_dep1">
+                                            <span class="dep1_tit"><a href="/goods/special_order">스페셜브랜드</a></span>
+                                            <div class="dep2">
+                                                <div class="layer_top">
+                                                    <a href="javascript:history.go(-1);" class="back">back</a>
+                                                    <a href="javascript:;" class="close">close</a>
+                                                </div>
+                                                <div class="dep2_box">
+                                                    <div class="dep2_tit"><span><b>SPECIAL BRAND</b></span></div>
+                                                    <div class="specialbycategory_section layer_li box dep2_ul">
+                                                        <div class="categoryDepth2">
+                                                            <strong class="for_pc for_m">SPEICAL BY CATEGORY</strong>
+                                                            <div class="dep3_ul">
+                                                                <div class="layer_top">
+                                                                    <a href="javascript:history.go(-1);" class="back">back</a>
+                                                                    <a href="javascript:;" class="close">close</a>
+                                                                </div>
+                                                                <div class="dep3_tit">SPEICAL BY CATEGORY</div>
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="/goods/special_order?page=1&category=00020001&searchMode=special_order&brand%5B0%5D=1021&brand%5B0%5D=0202&brand%5B0%5D=0385">
+                                                                            <span>BAGS</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="/goods/special_order?page=1&category=00020003&searchMode=special_order&brand%5B0%5D=1021&brand%5B0%5D=0202&brand%5B0%5D=0385">
+                                                                            <span>CLOTHING</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="/goods/special_order?page=1&category=00020004&searchMode=special_order&brand%5B0%5D=1021&brand%5B0%5D=0202&brand%5B0%5D=0385">
+                                                                            <span>SHOES</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="/goods/special_order?page=1&category=00020005&searchMode=special_order&brand%5B0%5D=1021&brand%5B0%5D=0202&brand%5B0%5D=0385">
+                                                                            <span>ACCESSORIES</span>
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                                <a href="/goods/special_order" class="more">전체보기</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="specialdesigners_section layer_li box dep2_ul">
+                                                        <div class="categoryDepth2">
+                                                            <strong class="for_pc for_m">SPECIAL DESIGNERS</strong>
+                                                            <div class="dep3_ul">
+                                                                <div class="layer_top">
+                                                                    <a href="javascript:history.go(-1);" class="back">back</a>
+                                                                    <a href="javascript:;" class="close">close</a>
+                                                                </div>
+                                                                <div class="dep3_tit">SPECIAL DESIGNERS</div>
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="/goods/special_order?page=1&searchMode=special_order&brand%5B0%5D=1021">
+                                                                            <span>Hermès</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="/goods/special_order?page=1&searchMode=special_order&brand%5B0%5D=0202">
+                                                                            <span>DIOR</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="/goods/special_order?page=1&searchMode=special_order&brand%5B0%5D=0385">
+                                                                            <span>GUCCI</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <a href="/goods/special_order" class="more">전체보기</a>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <ul class="dep1_ul layer_review ">
+                                        <li class="dep1">
+                                            <span class="dep1_tit"><a href="/board/?id=goods_review&orderby=upload">리뷰</a></span>
+                                        </li>
+                                    </ul>
+
+                                    <ul class="dep1_ul layer_butler">
+                                        <li class="dep1 sub_dep1 txt_on on"><span class="dep1_tit"><a href="/page/index?tpl=etc%2Fbutler.html">마이 버틀러</a></span>
+                                            <div class="dep2">
+                                                <div class="layer_top">
+                                                    <a href="javascript:history.go(-1);" class="back">back</a>
+                                                    <a href="javascript:;" class="close">close</a>
+                                                </div>
+                                                <div class="btm">
+                                                    <span class="t_big">MY BUTLER</span>
+                                                    <div class="t_sm"><span class="t_vip">VIP</span> 고객을 위한 하이엔드 서비스</div>
+                                                    <div class="btn_wrap">
+                                                        <a href="/page/index?tpl=etc%2Fbutler.html" class="btn1">서비스 알아보기</a>
+                                                        <a href="/goods/butler" class="btn2">버틀러 상품 전체보기</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    <ul class="dep1_ul layer_magazine ">
+                                        <li class="dep1 sub_dep1"><span class="dep1_tit"><a href="/board/?id=magazine">매거진</a></span>
+                                            <div class="dep2">
+                                                <div class="layer_top">
+                                                    <a href="javascript:history.go(-1);" class="back">back</a>
+                                                    <a href="javascript:;" class="close">close</a>
+                                                </div>
+                                                <div class="dep2_box">
+                                                    <div class="dep2_tit"><span><b>MAGAZINE</b></span></div>
+                                                    <div class="magazine_section layer_li box dep2_ul">
+                                                        <div class="categoryDepth2">
+                                                            <strong class="for_pc for_m">SECTION</strong>
+                                                            <div class="dep3_ul">
+                                                                <div class="layer_top">
+                                                                    <a href="javascript:history.go(-1);" class="back">back</a>
+                                                                    <a href="javascript:;" class="close">close</a>
+                                                                </div>
+                                                                <div class="dep3_tit">SECTION</div>
+                                                                <ul>
+                                                                    <li><a href="/board/?id=magazine&category=TREND">TREND</a></li>
+                                                                    <li><a href="/board/?id=magazine&category=STYLE">STYLE</a></li>
+                                                                    <li><a href="/board/?id=magazine&category=ITEM">ITEM</a></li>
+                                                                    <li><a href="/board/?id=magazine&category=NEWS">NEWS</a></li>
+                                                                    <li><a href="/board/?id=magazine&category=CULTURE">CULTURE</a></li>
+                                                                </ul>
+                                                                <a href="/board/?id=magazine" class="more">전체보기</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!--/ magazine_section -->
+                                                    <div class="magazine_new layer_li box dep2_ul">
+                                                        <div class="categoryDepth2">
+                                                            <strong class="for_pc for_m">NEW STORIES</strong>
+                                                            <div class="dep3_ul">
+                                                                <div class="layer_top">
+                                                                    <a href="javascript:history.go(-1);" class="back">back</a>
+                                                                    <a href="javascript:;" class="close">close</a>
+                                                                </div>
+                                                                <div class="dep3_tit">NEW STORIES</div>
+                                                                <ul>
+                                                                    <li><a href="/board/view?id=magazine&seq=Array"># </a><a href="/board/view?id=magazine&seq=Array" board_seq="Array" board_id="magazine"> <a href="/board/view?id=magazine&seq=1194" board_seq="1194" board_id="magazine">TREND '진주'하세요 </a> </a></li>
+                                                                    <li><a href="/board/view?id=magazine&seq=Array"># </a><a href="/board/view?id=magazine&seq=Array" board_seq="Array" board_id="magazine"> <a href="/board/view?id=magazine&seq=1190" board_seq="1190" board_id="magazine">ITEM MD's PICK '소프트 볼륨 백 ... </a> </a></li>
+                                                                    <li><a href="/board/view?id=magazine&seq=Array"># </a><a href="/board/view?id=magazine&seq=Array" board_seq="Array" board_id="magazine"> <a href="/board/view?id=magazine&seq=1189" board_seq="1189" board_id="magazine">STYLE 안야 테일러 조이의 패션 </a> </a></li>
+                                                                    <li><a href="/board/view?id=magazine&seq=Array"># </a><a href="/board/view?id=magazine&seq=Array" board_seq="Array" board_id="magazine"> <a href="/board/view?id=magazine&seq=1188" board_seq="1188" board_id="magazine">NEWS 마이키타를 아시나요? </a> </a></li>
+                                                                    <li><a href="/board/view?id=magazine&seq=Array"># </a><a href="/board/view?id=magazine&seq=Array" board_seq="Array" board_id="magazine"> <a href="/board/view?id=magazine&seq=1187" board_seq="1187" board_id="magazine">ITEM 주얼리의 힘 </a> </a></li>
+                                                                </ul>
+                                                                <a href="/board/?id=magazine" class="more">전체보기</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!--/ magazine_new -->
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <!--/ layer_magazine -->
+
+                                    <ul class="dep1_ul layer_event ">
+                                        <li class="dep1 sub_dep1">
+                                            <span class="dep1_tit"><a href="/promotion/event">이벤트</a></span>
+
+                                            <div class="dep2">
+                                                <div class="layer_top">
+                                                    <a href="javascript:history.go(-1);" class="back">back</a>
+                                                    <a href="javascript:;" class="close">close</a>
+                                                </div>
+                                                <div class="dep2_box">
+                                                    <div class="dep2_tit"><span><b>EVENT</b></span></div>
+                                                    <div class="event_section layer_li box dep2_ul">
+                                                        <!-- event_section -->
+                                                        <div class="categoryDepth2">
+                                                            <strong class="for_pc for_m">EVENT</strong>
+                                                            <div class="dep3_ul">
+                                                                <div class="layer_top">
+                                                                    <a href="javascript:history.go(-1);" class="back">back</a>
+                                                                    <a href="javascript:;" class="close">close</a>
+                                                                </div>
+                                                                <div class="dep3_tit">SECTION</div>
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="/promotion/event_view?event=23">
+                                                                            디올백 99,999원 이벤트
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="/promotion/event_view?event=91">
+                                                                            패딩 초특가! 균일가전 449,000~
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="/promotion/event_view?event=95">
+                                                                            제시가 선택한 슈즈, 로저비비에
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="/promotion/event_view?event=94">
+                                                                            ATNY BEST AWARDS
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="/promotion/event_view?event=86">
+                                                                            가볍게 움켜쥐다, Clutch Bag
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="/promotion/event_view?event=89">
+                                                                            실용적인 미니멀리즘, 프라다
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="/promotion/event_view?event=57">
+                                                                            프리미엄 패딩페스티벌
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="/promotion/event_view?event=36">
+                                                                            소유하고 싶은 지갑 컬렉션
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="/promotion/event_view?event=21">
+                                                                            가방 특가 ~50% SALE
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                                <a href="/promotion/event" class="more">전체보기</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!--/ event_section -->
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <!--/ layer_event -->
+
+                                    <ul class="dep1_ul layer_history ">
+                                        <li class="dep1">
+                                            <span class="dep1_tit"><a href="/mypage/history_recently">히스토리</a></span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- //전체 카테고리 -->
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- 버틀러 상단 -->
+            <div class="butler_header">
+                <div class="home">
+                    <a href="/" class="ico_home">home</a>
+                    <a href="/goods/butler" class="goods_all for_pc">버틀러 상품 전체보기 ></a>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#pick2">버틀러란?</a></li>
+                        <li><a href="#grade">이용등급</a></li>
+                        <li><a href="#show">이용방법</a></li>
+                        <li><a href="#qa">Q&A</a></li>
+                    </ul>
+                </div>
+                <a href="/goods/butler" class="goods_all for_m">버틀러 상품 전체보기 ></a>
+                <!--
+	<div class="category_wrap">
+		<a href="#" class="ico_category">
+		</a>
+	</div>
+	-->
+            </div>
+
+
+            <!-- 모바일용 레이어 -->
+            <div class="gnb_slider_layer on">
+                <div class="dmm"></div>
+                <button type="button" class="slider_close">닫기</button>
+
+                <div class="layer_content">
+                    <div class="tab">
+                        <ul>
+                            <li class="on"><a href="javascript:;">WOMEN</a></li>
+                            <li class=""><a href="javascript:;">MEN</a></li>
+                        </ul>
+                    </div>
+                    <div class="slider_menu on">
+                        <ul class="menu_list">
+                            <li class="menu1">
+                                <div class="tit"><span class="txt">SHOP</span><em class="ico_arr"></em>
+                                    <buttton type="button" class="btn_all" onclick="location.href='/goods/catalog?code=0002';">전체보기</buttton>
+                                </div>
+                                <ul class="menu2_list">
+                                    <li><a href="/goods/catalog?code=00020001">가방</a></li>
+                                    <li><a href="/goods/catalog?code=00020002">지갑</a></li>
+                                    <li><a href="/goods/catalog?code=00020003">의류</a></li>
+                                    <li><a href="/goods/catalog?code=00020004">신발</a></li>
+                                    <li><a href="/goods/catalog?code=00020005">액세서리</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu1">
+                                <a href="/goods/new_arrivals" class="tit"><span class="txt">신상품</span></a>
+                            </li>
+                            <li class="menu1">
+                                <a href="/goods/low_price" class="tit"><span class="txt">투데이 최저가 존</span></a>
+                            </li>
+                            <li class="menu1 surprise">
+                                <a href="/promotion/event_view?event=97" class="tit"><span class="txt"><img src="http://www.atny.com/data/skin/responsive_ver2/images/renewal_ver2/img_sale tag.svg" alt="surprise sale" title="" width="122px"></span></a>
+                            </li>
+                            <li class="menu1">
+                                <a href="/goods/sale" class="tit"><span class="txt">SALE</span></a>
+                            </li>
+                            <li class="menu1">
+                                <a href="/goods/best_designers" class="tit"><span class="txt">디자이너</span></a>
+                            </li>
+                            <li class="menu1">
+                                <a href="/goods/best_seller" class="tit"><span class="txt">베스트셀러</span></a>
+                            </li>
+                            <li class="menu1">
+                                <a href="/goods/special_order" class="tit"><span class="txt">스페셜브랜드</span></a>
+                            </li>
+                            <li class="menu1">
+                                <a href="/board/?id=goods_review&orderby=upload" class="tit"><span class="txt">리뷰</span></a>
+                            </li>
+                            <li class="menu1">
+                                <a href="/page/index?tpl=etc%2Fbutler.html" class="tit"><span class="txt">마이버틀러</span></a>
+                            </li>
+                            <li class="menu1">
+                                <a href="/board/?id=magazine" class="tit"><span class="txt">매거진</span></a>
+                            </li>
+                            <li class="menu1">
+                                <a href="/promotion/event" class="tit"><span class="txt">이벤트</span></a>
+                            </li>
+                            <li class="menu1">
+                                <a href="/mypage/history_recently" class="tit"><span class="txt">히스토리</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="slider_menu ">
+                        <ul class="menu_list">
+                            <li class="menu1">
+                                <div class="tit"><span class="txt">SHOP</span><em class="ico_arr"></em>
+                                    <buttton type="button" class="btn_all" onclick="location.href='/goods/catalog?code=0001';">전체보기</buttton>
+                                </div>
+                                <ul class="menu2_list">
+                                    <li><a href="/goods/catalog?code=00010001">가방</a></li>
+                                    <li><a href="/goods/catalog?code=00010002">지갑</a></li>
+                                    <li><a href="/goods/catalog?code=00010003">의류</a></li>
+                                    <li><a href="/goods/catalog?code=00010004">신발</a></li>
+                                    <li><a href="/goods/catalog?code=00010005">액세서리</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu1">
+                                <a href="/goods/new_arrivals" class="tit"><span class="txt">신상품</span></a>
+                            </li>
+                            <li class="menu1">
+                                <a href="/goods/low_price" class="tit"><span class="txt">투데이 최저가 존</span></a>
+                            </li>
+                            <li class="menu1">
+                                <a href="/goods/sale" class="tit"><span class="txt">SALE</span></a>
+                            </li>
+                            <li class="menu1">
+                                <a href="/goods/best_designers" class="tit"><span class="txt">디자이너</span></a>
+                            </li>
+                            <li class="menu1">
+                                <a href="/goods/best_seller" class="tit"><span class="txt">베스트셀러</span></a>
+                            </li>
+                            <li class="menu1">
+                                <a href="/goods/special_order" class="tit"><span class="txt">스페셜브랜드</span></a>
+                            </li>
+                            <li class="menu1">
+                                <a href="/board/?id=goods_review&orderby=upload" class="tit"><span class="txt">리뷰</span></a>
+                            </li>
+                            <li class="menu1">
+                                <a href="/page/index?tpl=etc%2Fbutler.html" class="tit"><span class="txt">마이버틀러</span></a>
+                            </li>
+                            <li class="menu1">
+                                <a href="/board/?id=magazine" class="tit"><span class="txt">매거진</span></a>
+                            </li>
+                            <li class="menu1">
+                                <a href="/promotion/event" class="tit"><span class="txt">이벤트</span></a>
+                            </li>
+                            <li class="menu1">
+                                <a href="/mypage/history_recently" class="tit"><span class="txt">히스토리</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="dir_menu">
+                        <li><a href="/member/login">로그인</a></li>
+                        <li><a href="/order/cart">장바구니</a></li>
+                        <li><a href="/board/?id=faq">고객센터</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 검색 레이어 -->
+            <div class="search_full_layer">
+                <div class="inner_box">
+                    <div class="search_ipt_wrap">
+                        <div class="ipt_box">
+                            <form name="topSearchForm" id="topSearchForm" action="/goods/search">
+                                <input type="text" name="search_text" id="searchVer2InputBox" placeholder="검색어를 입력하세요." autocomplete="off" value="">
+                            </form>
+                            <button type="button" class="btn_srch" onclick="$('#topSearchForm').submit();">검색</button>
+
+                        </div>
+                        <button type="button" class="btn_close">닫기</button>
+                    </div>
+
+                    <!-- 자동완성 리뉴얼 버전에서는 사용안함 -->
+                    <div class="keyword_box_wrap">
+                        <div class="rcnt_keyword_wrap">
+                            <div class="tit">최근 검색어</div>
+                            <div class="list_wrap">
+                            </div>
+                        </div>
+                        <div class="rcmd_keyword_wrap">
+                            <div class="tit">추천 검색어</div>
+                            <div class="list_wrap">
+                                <span class="key_box"><a href="/goods/brand?code=0606" target="_self">미우미우</a></span>
+                                <span class="key_box"><a href="/goods/brand?code=0774" target="_self">로저비비에</a></span>
+                                <span class="key_box"><a href="/goods/brand?code=0060" target="_self">아미</a></span>
+                                <span class="key_box"><a href="/goods/brand?code=0544" target="_self">메종키츠네</a></span>
+                                <span class="key_box"><a href="/promotion/event_view?event=91" target="_self">패딩 균일가</a></span>
+                                <span class="key_box"><a href="/goods/search?osearchtext=프라다 가방" target="_self">프라다 가방</a></span>
+                                <span class="key_box"><a href="/goods/search?osearchtext=톰브라운 가디건" target="_self">톰브라운 가디건</a></span>
+                                <span class="key_box"><a href="/goods/search?osearchtext=스톤아이랜드 자켓" target="_self">스톤아이랜드 자켓</a></span>
+                                <span class="key_box"><a href="/promotion/event_view?event=90" target="_self">명품 지갑</a></span>
+                                <span class="key_box"><a href="/promotion/event_view?event=46" target="_self">스니커즈</a></span>
+                            </div>
+                        </div>
+                        <div class="pplr_keyword_wrap">
+                            <div class="tit">인기검색어<span class="up_dt">2021.01.08 업데이트</span></div>
+                            <div class="list_wrap">
+                                <div class="item">
+                                    <span class="or">1</span><a href="/goods/search?osearchtext=보테가베네타" class="keyword">보테가베네타</a>
+                                    <span class="st">
+                                        <i class="new">NEW</i>
+                                    </span>
+                                </div>
+                                <div class="item">
+                                    <span class="or">2</span><a href="/goods/search?osearchtext=구찌" class="keyword">구찌</a>
+                                    <span class="st">
+                                        <i class="down">DOWN</i>
+                                    </span>
+                                </div>
+                                <div class="item">
+                                    <span class="or">3</span><a href="/goods/search?osearchtext=발렌시아가" class="keyword">발렌시아가</a>
+                                    <span class="st">
+                                        <i class="down">DOWN</i>
+                                    </span>
+                                </div>
+                                <div class="item">
+                                    <span class="or">4</span><a href="/goods/search?osearchtext=톰브라운" class="keyword">톰브라운</a>
+                                    <span class="st">
+                                        <i class="up">UP</i>
+                                    </span>
+                                </div>
+                                <div class="item">
+                                    <span class="or">5</span><a href="/goods/search?osearchtext=버버리" class="keyword">버버리</a>
+                                    <span class="st">
+                                        <i class="up">UP</i>
+                                    </span>
+                                </div>
+                                <div class="item">
+                                    <span class="or">6</span><a href="/goods/search?osearchtext=페라가모" class="keyword">페라가모</a>
+                                    <span class="st">
+                                        <i class="up">UP</i>
+                                    </span>
+                                </div>
+                                <div class="item">
+                                    <span class="or">7</span><a href="/goods/search?osearchtext=골든구스" class="keyword">골든구스</a>
+                                    <span class="st">
+                                        <i class="up">UP</i>
+                                    </span>
+                                </div>
+                                <div class="item">
+                                    <span class="or">8</span><a href="/goods/search?osearchtext=몽클레어" class="keyword">몽클레어</a>
+                                    <span class="st">
+                                        <i class="up">UP</i>
+                                    </span>
+                                </div>
+                                <div class="item">
+                                    <span class="or">9</span><a href="/goods/search?osearchtext=펜디" class="keyword">펜디</a>
+                                    <span class="st">
+                                        <i class="down">DOWN</i>
+                                    </span>
+                                </div>
+                                <div class="item">
+                                    <span class="or">10</span><a href="/goods/search?osearchtext=카드지갑" class="keyword">카드지갑</a>
+                                    <span class="st">
+                                        <i class="up">UP</i>
+                                    </span>
+                                </div>
+                                <!--
+					<div class="item"><span class="or">2</span><a href="#" class="keyword">구찌</a><span class="st"><i class="same">same</i></span></div>
+					<div class="item"><span class="or">3</span><a href="#" class="keyword">발렌티노</a><span class="st"><i class="same">same</i></span></div>
+					<div class="item"><span class="or">4</span><a href="#" class="keyword">생로랑</a><span class="st"><i class="up"></i></span></div>
+					<div class="item"><span class="or">5</span><a href="#" class="keyword">톰브라운</a><span class="st"><i class="up"></i></span></div>
+					<div class="item"><span class="or">6</span><a href="#" class="keyword">에르메스</a><span class="st"><i class="down">하락</i></span></div>
+					<div class="item"><span class="or">7</span><a href="#" class="keyword">메종마르지엘라</a><span class="st"><i class="down">하락</i></span></div>
+					<div class="item"><span class="or">8</span><a href="#" class="keyword">발렌티노</a><span class="st"><i class="new">NEW</i></span></div>
+					<div class="item"><span class="or">9</span><a href="#" class="keyword">프라다</a><span class="st"><i class="same">same</i></span></div>
+					<div class="item"><span class="or">10</span><a href="#" class="keyword">디올</a><span class="st"><i class="same">same</i></span></div>
+					-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- 앱 관련 스크립트 -->
+            <script type="text/javascript">
+            </script>
+            <!-- ================= #LAYOUT_HEADER :: END. 파일위치 : layout_header/standard.html (default) ================= -->
+            <!-- ================= #LAYOUT_HEADER :: END. 파일위치 : layout_header/standard.html (default) ================= -->
+
+            <!-- 서브 상단 -->
+
+            <!--div class="sub_header">
+			<a href="#" onclick="javascript:history.back()" class="back"></a>
+		</div-->
+            <!--/ 서브 상단 -->
+
+            <div id="layout_content" class="layout_content main">
+                <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++
+@@ index @@
+- 파일위치 : [스킨폴더]/main/index.html
+++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+                <script src="http://www.atny.com/app/javascript/plugin/countdown/jquery.countdown.min.js"></script>
+                <style>
+                    #flickingBody {
+                        position: relative;
+                        width: 100%;
+                        height: 100%;
+                        left: 0;
+                        right: 0;
+                        margin: auto;
+                        min-height: 100vh
+                    }
+
+                    #flickingBody .panel {
+                        position: relative;
+                        width: 100%;
+                        height: 100%;
+                        overflow: hidden;
+                    }
+
+                    #flickingBody .eg-flick-viewport {
+                        z-index: 1 !important;
+                        padding-bottom: 50px;
+                        height: 100vh
+                    }
+
+                </style>
+
+
+
+                <div id="flickingMenu">
+                    <ul>
+                        <li class="on">HOME</li>
+                        <li data-tabType="flicking_catalog" data-val="0002">WOMEN</li>
+                        <li data-tabType="flicking_catalog" data-val="0001">MEN</li>
+                        <li data-tabType="flicking_oneday_delivery" data-val="">하루배송</li>
+                        <li data-tabType="flicking_sale" data-val="">SALE</li>
+                        <li data-tabType="flicking_low_price" data-val="">최저가</li>
+                        <li data-tabType="flicking_event" data-val="">EVENT</li>
+                        <li data-tabType="flicking_magazine" data-val="">MAGAZINE</li>
+                        <li data-tabType="flicking_butler" data-val="">MYBUTLER</li>
+                    </ul>
+                </div>
+                <div id="flickingBody">
+                    <!-- home(main) -->
+                    <div class="panel">
+                        <div class="panelBody succ">
+                            <div class="visual_wrap noFlickingTouch">
+                                <div class="visual_slide_wrap">
+                                    <div class="item">
+                                        <a href="/promotion/event_view?event=94">
+                                            <span><img src="http://www.atny.com/data/banner/263807.jpg" alt="main_banner" title="main_banner" width="100%"></span>
+                                        </a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="https://www.atny.com/board/view?id=magazine&seq=1112">
+                                            <span><img src="http://www.atny.com/data/banner/397894.jpg" alt="main_banner" title="main_banner" width="100%"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="visual_paging" style="display:none;">
+                                    <button type="button" class="button_prev"></button>
+                                    <span class="pagingInfo"></span>
+                                    <button type="button" class="button_next"></button>
+                                </div>
+                            </div>
+
+                            <div class="lowprice_area goodslist_area">
+                                <div class="lowprice_top">
+                                    <div class="tit_wrap">
+                                        <div class="mn_tit">
+                                            <a href="/goods/low_price"><span class="tit_sp">투데이 최저가 존</span></a>
+                                            <div class="lowprice_layer_wrap" id="lowprice_layer_wrap">
+                                                <span class="btn_more">알아보기</span>
+                                                <div class="layer">
+                                                    <span class="tit_bx">투데이 최저가 존</span>
+                                                    <span class="btn_close">닫기</span>
+                                                    <div class="ctt_box">
+                                                        투데이 최저가존은 고객님의 안심구매를 위해 쇼핑봇을 통해 애트니 전상품을 포털 최저가와 비교 자동 필터링하고 있습니다. 이제, 번거로운 검색 없이 안심하고 빠르게 쇼핑하세요. 단 가품이나 중고 상품은 제외되며, 포털 가격비교 내 "백화점/홈쇼핑" 탭을 기준으로 실제 판매중인 상품을 대상으로 합니다.(내부 시스템 및 포털 연동 시점에 따라 일부 차이가 날 수 있습니다.)
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sub_blck">
+                                        <span class="t_item">
+                                            <span class="num">0</span>Items
+                                        </span>
+                                        <div class="category_tab">
+                                            <ul class="tabs" data-tabtype="low_price">
+                                                <li class=""><a href="javascript:;">가방</a></li>
+                                                <li class=""><a href="javascript:;">신발</a></li>
+                                                <li class=""><a href="javascript:;">의류</a></li>
+                                                <li class=""><a href="javascript:;">액세서리</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="items_wrap tab_container">
+                                    <div class="tab_content" style="display: none;"></div>
+                                    <div class="tab_content" style="display: none;"></div>
+                                    <div class="tab_content" style="display: none;"></div>
+                                    <div class="tab_content" style="display: none;"></div>
+                                </div>
+                                <div class="button_wrap" style="display:none;">
+                                    <a href="/goods/low_price" class="btn_view_more">MORE</a>
+                                </div>
+                            </div>
+
+                            <div class="special_item_wrap bannerManagementBox" style="display:none;">
+                                <div class="tit_wrap">
+                                    <div class="mn_tit">
+                                        <a href="/promotion/event"><span class="tit_sp">기획전</span></a>
+                                    </div>
+                                </div>
+                                <div class="special_slider_wrap bannerManagement" data-tabtype="main_planning"></div>
+                            </div>
+
+                            <div class="new_arrival_wrap bannerManagementBox" style="display:none;">
+                                <div class="tit_wrap">
+                                    <div class="mn_tit">
+                                        <a href="/goods/new_arrivals"><span class="tit_sp">신상품</span></a>
+                                    </div>
+                                </div>
+                                <div class="bannerManagement" data-tabtype="main_new_arrivals"></div>
+                            </div>
+
+                            <div class="atny_selection_wrap bannerManagementBox" style="display:none;">
+                                <div class="tit">OUR <span class="txt_color">PICK</span></div>
+                                <div class="selection_slider bannerManagement noFlickingTouch" data-tabtype="main_selection"></div>
+                            </div>
+
+                            <div class="ban_full_wrap bannerManagement noFlickingTouch" data-tabtype="main_policy"></div>
+
+                            <div id="goods_review_framebox" data-ord="" data-perpage="3"></div>
+
+                            <div class="time_sale_wrap ">
+                                <div class="sale_img">
+                                    <span><img src="http://www.atny.com/data/event/event_view_banner_92.jpg" alt="" title=""></span>
+                                </div>
+                                <div class="tit">TIME SALE</div>
+                                <div class="time_box" data-endtime="2021/01/31 23:59:59">
+                                    <ul>
+                                        <li class="days_box">
+                                            <span class="num">0</span>
+                                            <span class="txt">DAYS</span>
+                                        </li>
+                                        <li class="dash">:</li>
+                                        <li class="hours_box">
+                                            <span class="num">0</span>
+                                            <span class="txt">HOURS</span>
+                                        </li>
+                                        <li class="dash">:</li>
+                                        <li class="min_box">
+                                            <span class="num">0</span>
+                                            <span class="txt">MINUTES</span>
+                                        </li>
+                                        <li class="dash">:</li>
+                                        <li class="sec_box">
+                                            <span class="num">0</span>
+                                            <span class="txt">SECONDS</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="sale_item_info">
+                                    <div class="info_box">
+                                        <span class="item_br">DIOR</span>
+                                        <span class="item_nm">디올 오블리크 새들 벨트 파우치</span>
+                                        <span class="item_pr">&#x20a9;<span class="t_pr">99,999</span></span>
+                                    </div>
+                                    <button type="button" class="btn_buy" onclick="location.href='https://www.atny.com/promotion/event_view?event=23';">자세히 보기</button>
+                                </div>
+                            </div>
+
+                            <div class="mn_magazine_wrap">
+                                <div class="top_area">
+                                    <div class="tit_wrap">
+                                        <div class="mn_tit">
+                                            <a href="/board/?id=magazine"><span class="tit_sp">매거진</span></a>
+                                        </div>
+                                    </div>
+                                    <div class="img_box">
+                                        <a href="/board/view?id=magazine&seq=1194">
+                                            <img src="https://atny.com/data/board/magazine/cdc679bebbe282e170ab6fe0dca8445e1917131.jpg" alt="" title="" width="100%">
+                                        </a>
+                                    </div>
+                                    <div class="magazine_info">
+                                        <div class="info_box">
+                                            <span class="tt">'진주'하세요</span>
+                                            <span class="ct">Trend</span>
+                                            <span class="dt">21.01.04</span>
+                                        </div>
+                                        <div class="top_info">
+                                            <span class="tt">MAGAZINE</span>
+                                            <span class="dt">EVERYDAY NEW FASHION</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="magazine_list noFlickingTouch">
+                                    <div class="item">
+                                        <div class="img_box"><a href="/board/view?id=magazine&seq=1190"><img src="https://atny.com/data/board/magazine/f3ccdd27d2000e3f9255a7e3e2c488001345421.jpg" alt="" title="" width="100%"></a></div>
+                                        <div class="magazine_info">
+                                            <div class="info_box">
+                                                <span class="tt">MD's PICK '소프트 볼륨 백 VS 마이크로 미니 백'</span>
+                                                <span class="ct">Item</span>
+                                                <span class="dt">21.01.04</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="img_box"><a href="/board/view?id=magazine&seq=1189"><img src="https://atny.com/data/board/magazine/cdc679bebbe282e170ab6fe0dca8445e1315111.jpg" alt="" title="" width="100%"></a></div>
+                                        <div class="magazine_info">
+                                            <div class="info_box">
+                                                <span class="tt">안야 테일러 조이의 패션</span>
+                                                <span class="ct">Style</span>
+                                                <span class="dt">21.01.04</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="img_box"><a href="/board/view?id=magazine&seq=1188"><img src="https://atny.com/data/board/magazine/cdc679bebbe282e170ab6fe0dca8445e1219301.jpg" alt="" title="" width="100%"></a></div>
+                                        <div class="magazine_info">
+                                            <div class="info_box">
+                                                <span class="tt">마이키타를 아시나요?</span>
+                                                <span class="ct">News</span>
+                                                <span class="dt">21.01.04</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="img_box"><a href="/board/view?id=magazine&seq=1187"><img src="https://atny.com/data/board/magazine/cdc679bebbe282e170ab6fe0dca8445e1124421.jpg" alt="" title="" width="100%"></a></div>
+                                        <div class="magazine_info">
+                                            <div class="info_box">
+                                                <span class="tt">주얼리의 힘</span>
+                                                <span class="ct">Item</span>
+                                                <span class="dt">21.01.04</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="img_box"><a href="/board/view?id=magazine&seq=1185"><img src="https://atny.com/data/board/magazine/cdc679bebbe282e170ab6fe0dca8445e1050581.jpg" alt="" title="" width="100%"></a></div>
+                                        <div class="magazine_info">
+                                            <div class="info_box">
+                                                <span class="tt">패션과 스포츠의 상관관계</span>
+                                                <span class="ct">News</span>
+                                                <span class="dt">21.01.04</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="img_box"><a href="/board/view?id=magazine&seq=1183"><img src="https://atny.com/data/board/magazine/cdc679bebbe282e170ab6fe0dca8445e1023201.jpg" alt="" title="" width="100%"></a></div>
+                                        <div class="magazine_info">
+                                            <div class="info_box">
+                                                <span class="tt">새하얀 세상</span>
+                                                <span class="ct">Trend</span>
+                                                <span class="dt">21.01.04</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="bestseller_wrap goodslist_area">
+                                <div class="tit_wrap">
+                                    <div class="mn_tit">
+                                        <a href="/goods/best_seller"><span class="tit_sp">베스트셀러</span></a>
+                                    </div>
+                                </div>
+                                <div class="bestseller_goodsbox"></div>
+                                <div class="update_dt">21.01.08 업데이트 기준</div>
+                            </div>
+
+                            <div class="spcl_brand_wrap bannerManagementBox" style="display:none;">
+                                <div class="tit_wrap">
+                                    <div class="mn_tit">
+                                        <a href="/goods/special_order"><span class="tit_sp">스페셜브랜드</span></a>
+                                    </div>
+                                </div>
+                                <div class="inner_box">
+                                    <div class="spcl_slider_wrap noFlickingTouch">
+                                        <div class="spcl_slider bannerManagement" data-tabtype="main_special_brand"></div>
+                                    </div>
+                                    <div id="spcl_slider_child"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- //home(main) -->
+                </div>
+
+                <script type="text/javascript" src="http://www.atny.com/app/javascript/plugin/flicking/flicking.pkgd.min.js"></script>
+                <script type="text/javascript">
+                    var mFlicking = null,
+                        _defPanelIdx = 0;
+                    $(function() {
+                        // 상품리스트 필터용 스토리지 정보 삭제
+                        /*sessionStorage.removeItem('html_goods_list');
+                        sessionStorage.removeItem("last_category");
+                        sessionStorage.removeItem("last_params");
+                        sessionStorage.removeItem("last_sorting");*/
+                    });
+                    $(window).ready(function() {
+
+                        $('#flickingMenu ul li').click(function() {
+                            _setFLKMenu($(this).index());
+                            mFlicking.moveTo($(this).index(), 0);
+                        });
+
+                        if ($(window).width() < 768) {
+                            setTimeout(function() {
+                                _loadFLK();
+                            }, 1000);
+                        }
+                    });
+
+                    function _loadFLK() {
+
+                        // 메인 플리킹 Start
+                        mFlicking = new eg.Flicking("#flickingBody", {
+                            circular: false, // 순환 모드를 비활성화
+                            gap: 0, // 패널간에 부여할 간격의 크기
+                            threshold: 100 // 다음 패널로 바뀌는 기준 이동 거리
+                        }).on({
+                            moveStart: function(e) {
+                                //$("html").animate({scrollTop: 0}, 300);
+                            },
+                            move: function(e) {
+                                var _direction = e.direction; // NEXT, PREV
+                            },
+                            moveEnd: function(e) // 목적 패널로의 이동을 완료한 다음 발생하는 이벤트.
+                            {
+
+                                if (_defPanelIdx != e.index) {
+                                    _defPanelIdx = e.index;
+                                    $("html").animate({
+                                        scrollTop: 0
+                                    }, 0);
+
+                                    // 상단 탭 관련 스크립트
+                                    $('#flickingMenu ul li').removeClass('on');
+                                    $('#flickingMenu ul li').eq(_defPanelIdx).addClass('on');
+                                    var menuWidth = ($('#flickingMenu ul').width() - 50),
+                                        chkWidth = 0;
+                                    $('#flickingMenu ul li').each(function() {
+                                        chkWidth += $(this).outerWidth();
+                                        if ($(this).hasClass('on') == true) return false;
+                                    });
+                                    if (chkWidth >= menuWidth) {
+                                        $('#flickingMenu ul').scrollLeft((chkWidth - menuWidth));
+                                    } else {
+                                        $('#flickingMenu ul').scrollLeft(0);
+                                    }
+
+                                    // 이전/다음 패널 미리 호출
+                                    if (_defPanelIdx > 1) _setFLKMenu(_defPanelIdx - 1);
+                                    if ((_defPanelIdx + 1) != $('#flickingBody .panel').length) _setFLKMenu(_defPanelIdx + 1);
+                                }
+                            }
+                        });
+
+                        // 상단 플리킹 메뉴에 따라 패널 셋팅
+                        $('#flickingMenu li').each(function() {
+                            if (typeof $(this).attr('data-tabType') != 'undefined') {
+                                mFlicking.append('<div class="panel"><div class="panelBody"></div></div>');
+                            }
+                        });
+
+                        // 플리킹 액션 비활성화
+                        _setCTLFlicking($('.noFlickingTouch'));
+
+                        // 패널별 높이 조절
+                        _setFLKHeight($('#flickingBody').eq(_defPanelIdx).find('.panelBody'));
+                        $(window).scroll(function() {
+                            if ($('#flickingBody').height() != $('#flickingBody .panel').eq(_defPanelIdx).find('.panelBody').height()) {
+                                _setFLKHeight($('#flickingBody .panel').eq(_defPanelIdx).find('.panelBody'));
+                            }
+                        });
+
+                        // 다음 패널 미리 호출
+                        _setFLKMenu(1);
+                    }
+
+                    function _setFLKHeight(target) {
+                        $('#flickingBody').css('height', target.height());
+                        $('#flickingBody .eg-flick-viewport').css('height', target.height());
+                    }
+
+                    function _setCTLFlicking(target) {
+                        target.bind('mousedown touchstart', function(e) {
+                            mFlicking.disableInput();
+                        });
+                        target.bind('mouseup touchend', function(e) {
+                            mFlicking.enableInput();
+                        });
+                    }
+                    // 플리킹 메뉴별 페이지 호출
+                    function _setFLKMenu(index) {
+                        var type = $('#flickingMenu ul li').eq(index).attr('data-tabType'),
+                            val = $('#flickingMenu ul li').eq(index).attr('data-val'),
+                            target = $('#flickingBody .panel').eq(index).find('.panelBody'),
+                            url = '',
+                            data = 'flickingMode=Y';
+
+                        switch (type) {
+                            case 'flicking_catalog':
+                                url = '/goods/catalog';
+                                data += '&code=' + val;
+                                break;
+                            case 'flicking_oneday_delivery':
+                                url = '/goods/oneday_delivery';
+                                break;
+                            case 'flicking_sale':
+                                url = '/goods/sale';
+                                break;
+                            case 'flicking_low_price':
+                                url = '/goods/low_price';
+                                break;
+                            case 'flicking_event':
+                                url = '/promotion/event';
+                                break;
+                            case 'flicking_magazine':
+                                url = '/board/?id=magazine';
+                                break;
+                            case 'flicking_butler':
+                                url = '/page/index';
+                                data += '&tpl=etc%2Fbutler.html';
+                                break;
+                        }
+
+                        if (url != '' && target.hasClass('succ') == false) {
+                            $.ajax({
+                                url: url,
+                                data: data,
+                                type: 'get',
+                                success: function(e) {
+                                    target.html(e);
+                                    target.addClass('succ');
+                                    target.find('#goodsSearchForm').remove();
+                                    target.find('.srch_goods_wrap').removeAttr('id');
+                                    target.find('.page_item_cnt').removeAttr('id');
+
+                                    if (type == 'flicking_magazine') {
+                                        $('.boad_view_btn').live('click', function() {
+                                            var viewlink = $(this).attr('viewlink');
+                                            document.location.href = viewlink;
+                                        });
+                                    }
+                                },
+                                beforeSend: function() {
+                                    var _imgsize = ($(window).width() < 640) ? 64 : 128;
+                                    var _padding = 75;
+                                    target.html("<p style='text-align:center;background:#fff;padding:" + _padding + "px 0;'><img src='https://atny.com/data/skin/responsive_ver2/images/loading02.gif' alt='loading' style='width:" + _imgsize + "px;height:" + _imgsize + "px;' /></p>");
+                                }
+                            });
+                        }
+                    }
+                    // 앱 메인페이지에서 HOME 버튼 클릭 시 호출
+                    function resetMain() {
+                        if (_defPanelIdx == 0) {
+                            $("html").animate({
+                                scrollTop: 0
+                            }, 0);
+                        } else {
+                            mFlicking.moveTo(0, 0);
+                        }
+
+                        if ($('.gnb_slider_layer').hasClass('on') == true) {
+                            $('.gnb_slider_layer').removeClass('on');
+                        }
+                        if ($('.search_full_layer').hasClass('on') == true) {
+                            $('.search_full_layer').removeClass('on');
+                        }
+                    }
+
+                </script>
+
+
+                <!-- ADN 메인패널 설치 start -->
+                <script type="text/javascript">
+                    var adn_pinad_param = adn_pinad_param || [];
+                    adn_pinad_param.push([{
+                        ui: '102396',
+                        ci: '1023960001',
+                        gi: '29049'
+                    }]);
+
+                </script>
+                <!-- ADN 메인패널 설치 end -->
+
+
+                <!-- Criteo 홈페이지 태그 -->
+                <script type="text/javascript" src="//static.criteo.net/js/ld/ld.js" async="true"></script>
+                <script type="text/javascript">
+                    window.criteo_q = window.criteo_q || [];
+                    var deviceType = /iPad/.test(navigator.userAgent) ? "t" : /Mobile|iP(hone|od)|Android|BlackBerry|IEMobile|Silk/.test(navigator.userAgent) ? "m" : "d";
+                    window.criteo_q.push({
+                            event: "setAccount",
+                            account: 72261
+                        }, // 이 라인은 업데이트하면 안됩니다
+                        {
+                            event: "setEmail",
+                            email: ""
+                        }, // 유저가 로그인이 안되 있는 경우 빈 문자열을 전달
+                        {
+                            event: "setSiteType",
+                            type: deviceType
+                        }, {
+                            event: "viewHome"
+                        });
+
+                </script>
+                <!-- END Criteo 홈페이지 태그 -->
+            </div>
+
+
+            <!-- ================= #LAYOUT_FOOTER :: START. 파일위치 : layout_footer/standard.html (default) ================= -->
+            <div id="layout_footer" class="layout_footer">
+                <!-- footer_content -->
+                <div class="footer_content">
+                    <div class="notice_box">
+                        <div class="inner">
+                            <div class="tit_wrap">
+                                <div class="mn_tit">
+                                    <a href="/board/?id=notice"><span class="tit_sp">NOTICE</span></a>
+                                </div>
+                            </div>
+                            <div class="notice_list">
+                                <a href="/board/view?id=notice&seq=1147"><span class="tt">99,999원 이벤트 11차 당첨자 후기</span></a>
+                                <a href="/board/view?id=notice&seq=1118"><span class="tt">앱 다운로드</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer_cs_wrap">
+                        <div class="inner">
+                            <div class="call">1544.6543</div>
+                            <div class="cs_txt">
+                                <div class="blck"><span class="tt">Open</span><span class="ct">AM 10:00 ~ PM 07:00</span></div>
+                                <div class="blck"><span class="tt">Off-time</span><span class="ct">PM 12:00 ~ PM 01:00</span></div>
+                                <div class="blck"><span class="tt">Day off</span><span class="ct">SAT, SUN, HOLIDAY</span></div>
+                            </div>
+                            <div class="button_wrap">
+                                <a href="/board/?id=faq" class="btn">FAQ</a>
+                                <a href="/mypage/myqna_catalog" class="btn">1:1 문의</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer_copyright">
+                        <div class="inner">
+                            <ul class="address">
+                                <li><span designElement="text" textIndex="1" textTemplatePath="cmVzcG9uc2l2ZV92ZXIyL2xheW91dF9mb290ZXIvc3RhbmRhcmQuaHRtbA==">회사명 :</span> <span class="pcolor">주식회사 애트니</span><em>|</em> <span designElement="text" textIndex="2" textTemplatePath="cmVzcG9uc2l2ZV92ZXIyL2xheW91dF9mb290ZXIvc3RhbmRhcmQuaHRtbA==">대표자 :</span> <span class="pcolor">유영태 </span><em>|</em><span designElement="text" textIndex="3" textTemplatePath="cmVzcG9uc2l2ZV92ZXIyL2xheW91dF9mb290ZXIvc3RhbmRhcmQuaHRtbA==">주소 :</span> <span class="pcolor">서울특별시 송파구 송파대로 201 (송파 테라타워2) A동 1524호</span></li>
+                                <li><span designElement="text" textIndex="4" textTemplatePath="cmVzcG9uc2l2ZV92ZXIyL2xheW91dF9mb290ZXIvc3RhbmRhcmQuaHRtbA==">사업자등록번호 :</span> <span class="pcolor">109-86-42112 <a href="javascript:;" onclick="window.open('http://www.ftc.go.kr/bizCommPop.do?wrkr_no=1098642112','communicationViewPopup','width=750,height=700,scrollbars=yes')">[사업자정보확인]</a></span><em>|</em><span designElement="text" textIndex="5" textTemplatePath="cmVzcG9uc2l2ZV92ZXIyL2xheW91dF9mb290ZXIvc3RhbmRhcmQuaHRtbA==">통신판매업신고번호 :</span> <span class="pcolor">2018-서울송파-1416</span></li>
+                                <li><span designElement="text" textIndex="6" textTemplatePath="cmVzcG9uc2l2ZV92ZXIyL2xheW91dF9mb290ZXIvc3RhbmRhcmQuaHRtbA==">개인정보보호책임자 :</span> <span class="pcolor">주복낙</span><em>|</em><span designElement="text" textIndex="7" textTemplatePath="cmVzcG9uc2l2ZV92ZXIyL2xheW91dF9mb290ZXIvc3RhbmRhcmQuaHRtbA==">소비자피해보상보험 SGI 서울보증</span></li>
+                                <li><span designElement="text" textIndex="8" textTemplatePath="cmVzcG9uc2l2ZV92ZXIyL2xheW91dF9mb290ZXIvc3RhbmRhcmQuaHRtbA==">전화 :</span> <a href="tel:1544-6543" class="pcolor">1544-6543</a><em>|</em><span designElement="text" textIndex="9" textTemplatePath="cmVzcG9uc2l2ZV92ZXIyL2xheW91dF9mb290ZXIvc3RhbmRhcmQuaHRtbA==">팩스 :</span> <span class="pcolor">02-881-5728</span> <em>|</em><span designElement="text" textIndex="10" textTemplatePath="cmVzcG9uc2l2ZV92ZXIyL2xheW91dF9mb290ZXIvc3RhbmRhcmQuaHRtbA==">E-mail</span> <span class="pcolor"><a class="pcolor" href="mailto:sales@atny.com">sales@atny.com</a></span> </li>
+                            </ul>
+                            <ul class="appDown">
+                                <li><a href="https://play.google.com/store/apps/details?id=com.atny.shop"><img src="http://www.atny.com/data/skin/responsive_ver1_default_gl_2_1_1_1/images/da_image/footer_appdown_google.svg?v=1" alt="" /></a></li>
+                                <li><a href="https://apps.apple.com/app/id1496906012"><img src="http://www.atny.com/data/skin/responsive_ver1_default_gl_2_1_1_1/images/da_image/footer_appdown_apple.svg?v=1" alt="" /></a></li>
+                            </ul>
+                            <p class="copyright dn" designElement="text" textIndex="11" textTemplatePath="cmVzcG9uc2l2ZV92ZXIyL2xheW91dF9mb290ZXIvc3RhbmRhcmQuaHRtbA==">COPYRIGHT (c) <span class="pcolor">주식회사 애트니</span> ALL RIGHTS RESERVED.</p>
+                            <div class="escrow"></div>
+                            <ul class="footerMenu">
+                                <li><a href="/service/privacy">개인 정보 보호 정책</a></li>
+                                <li><a href="/service/agreement">이용약관</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- //footer_content -->
+            </div>
+            <div class="footerLayerWrap" id="pop_privacy">
+                <div class="footerlayer">
+                    <p class="title">개인 정보 보호 정책 <button type="button" class="footerPopClose">닫기</button></p>
+                    <div class="termsCnt">
+
+                    </div>
+                </div>
+            </div>
+            <div class="footerLayerWrap" id="pop_agreement">
+                <div class="footerlayer">
+                    <p class="title">이용약관<button type="button" class="footerPopClose">닫기</button></p>
+                    <div class="termsCnt">
+
+                    </div>
+                </div>
+            </div>
+            <div class="footerLayerWrap" id="pop_alliance">
+                <div class="footerlayer">
+                    <p class="title">제휴 문의하기<button type="button" class="footerPopClose">닫기</button></p>
+                    <div class="footerlayerCnt">
+                        <div class="allianceInfo">
+                            <p class="title">파트너님,<br>애트니는 마케팅/홍보/광고 등 제휴제안을 받습니다.</p>
+                            <p class="subTitle">제휴 및 제안은 본 시스템을 통해 접수된 건에 한하여 정식으로 검토되며<br>제안 내용 및 관련자료는 제휴 검토 목적으로만 이용됩니다.</p>
+                        </div>
+                        <ul class="allianceTable">
+                            <li class="dduble">
+                                <div>
+                                    <div>유형선택</div>
+                                    <div>
+                                        <span class="selectBox">
+                                            <input type="text" readonly="readonly" placeholder="유형선택">
+                                            <ul>
+                                                <li><button type="button">마케팅</button></li>
+                                                <li><button type="button">홍보</button></li>
+                                                <li><button type="button">광고</button></li>
+                                            </ul>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>답변받기</div>
+                                    <div>
+                                        <span class="mail">
+                                            <input type="text" style="width:100%" placeholder="답변받을 이메일주소를 입력하세요">
+                                        </span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div>제목</div>
+                                <div><input type="text" placeholder="제목을 입력해주세요."></div>
+                            </li>
+                            <li>
+                                <div>내용</div>
+                                <div><textarea placeholder="문의내용을 입력해주세요"></textarea></div>
+                            </li>
+                        </ul>
+                        <div class="nonemember">
+                            <p>비회원 글작성에 대한 개인정보 수집동의</p>
+                            <div class="terms">
+                                <p>1. 개인정보의 수집 이용목적 : 회원가입 시 등록한 휴대전화번호와 다른 번호로 재입고 알림을 수신하기 위해서만 이용되면 그외 다른 목적으로 사용하지 않습니다.</p>
+                                <p>2. 수집하는 개인정보의 항목 : 신규 휴대전화번호</p>
+                                <p>3. 개인정보의 보유 및 이용기간 : 알림신청 시점부터 3개월간 보관 후 즉시 파기</p>
+                                <p>4. 개인정보 수집이용 동의를 거부할 권리가 있으며, 동의 거부 시 신규 휴대전화번호로의 재입고 알림 서비스는 이용하실 수 없습니다. </p>
+                            </div>
+                            <span class="ckbox"><input type="checkbox" id="agreeAlliance"><label for="agreeAlliance">개인정보 수집 및 이용 안내 내용을 확인 하였으며, 동의합니다.</label></span>
+                        </div>
+                        <div class="footerLayerBtn">
+                            <button type="button" class="nearPopOk single">문의하기</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 서브 커스텀 -->
+            <script type="text/javascript" src="http://www.atny.com/data/skin/responsive_ver2/js/renewal.js?dummy=20210108110922"></script>
+
+
+            <!-- 하단영역 : 끝 -->
+
+            <!-- 플로팅 - BACK/TOP(대쉬보드) -->
+            <div id="floating_over">
+                <a href="javascript:history.go(-1);" class="ico_floating_back" title="뒤로 가기"></a>
+                <a href="javascript:history.forward();" class="ico_floating_foward" title="앞으로 가기"></a>
+                <a href="#layout_header" class="ico_floating_top" title="위로 가기">TOP</a>
+
+                <!-- 최근 본 상품(LAYER) -->
+            </div>
+            <!-- //플로팅 - BACK/TOP(대쉬보드) -->
+
+            <!-- DIM Layer -->
+            <div id="dimLayer" class="dimLayer"></div>
+            <!-- //DIM Layer -->
+
+            <!-- APP 전용 레이어 -->
+            <div class="action-frame-applayer"></div>
+            <!-- //APP 전용 레이어 -->
+
+            <!-- 찜하기 레이어 -->
+            <div id="wish_alert">
+                <div class="wa_on"></div>
+                <div class="wa_off"></div>
+                <div class="wa_msg"></div>
+            </div>
+
+            <script type="text/javascript">
+                $(function() {
+                    /* 반응형 슬라이드 배너 관련( 절대 삭제 금지 ) */
+                    $('.slider_before_loading').removeClass('slider_before_loading');
+
+                    // 상품 색상 코드값 디자인( new 상품정보 )
+                    if ($('.displaY_color_option').length > 0) {
+                        $('.displaY_color_option .areA').filter(function() {
+                            return ($(this).css('background-color') == 'rgb(255, 255, 255)');
+                        }).addClass('border');
+                    }
+
+                    $(window).on('resize', function() {
+                        if (window.innerWidth != WINDOWWIDTH) {
+                            setTimeout(function() {
+                                WINDOWWIDTH = window.innerWidth;
+                            }, 10);
+                        }
+                    });
+                });
+
+                /*######################## 17.12.19 gcs yjy : 앱 처리(fb 로그아웃) s */
+                function logoutfb() {
+                    FB.getLoginStatus(logoutfb_process);
+                }
+
+                function logoutfb_process() {
+                    FB.api('/me', function(response) {
+
+                        FB.logout(function(response) {
+
+                        });
+
+                        isLogin = false;
+                        if (fbId != "") initializeFbTokenValues();
+                        if (fbUid != "") initializeFbUserValues();
+
+                        return false;
+                    });
+                }
+                /*######################## 17.12.19 gcs yjy : 앱 처리(fb 로그아웃) e */
+
+            </script>
+            <!-- ================= #LAYOUT_FOOTER :: END. 파일위치 : layout_footer/standard.html (default) ================= -->
+
+            <iframe name="actionFrame" id="actionFrame" src="/main/blank" frameborder="0" width="100%" height="0"></iframe>
+            <div id="openDialogLayer" style="display: none">
+                <div align="center" id="openDialogLayerMsg"></div>
+            </div>
+            <div id="ajaxLoadingLayer" style="display: none"></div>
+        </div>
+    </div>
+    <div id="mobileZipcodeLayer" style="display: none"></div>
+    <!-- 결제창을 레이어 형태로 구현-->
+    <div id="layer_pay" class="hide"></div>
+    <div id="payprocessing" class="pay_layer hide">
+        <div style="margin:auto;"><img src="http://www.atny.com/data/skin/responsive_ver2/images/design/img_paying.gif" /></div>
+        <div style="margin:auto;padding-top:20px;"><img src="http://www.atny.com/data/skin/responsive_ver2/images/design/progress_bar.gif" /></div>
+    </div>
+    <div id="layout_side_background" class="layout_side_background"></div>
+    <!-- 모바일 플로팅 메뉴 -->
+    <!--  -->
+    <!-- 		<!--  -->
+    <!--  -->
+    <div class="m_btm_menu btm_ft_menu">
+        <ul>
+            <li class="m1 nav_category_all"><a href="javascript:;"><span>카테고리</span></a></li>
+            <li class="m2"><a href="/"><span>홈</span></a></li>
+            <li class="m3"><a href="/mypage/history_recently"><span>히스토리</span></a></li>
+            <li class="m4 resp_top_search"><a href="javascript:;"><span>검색</span></a></li>
+            <li class=""><a href="/mypage"><span>마이페이지</span></a></li>
+        </ul>
+    </div>
+
+    <!--/ 모바일 플로팅 메뉴 -->
+    <!-- ================= #HTML_FOOTER :: START. 파일위치 : _modules/common/html_footer.html ================= -->
+    <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++
+@@ #HTML_FOOTER @@
+- 파일위치 : [스킨폴더]/_modules/common/html_footer.html
+++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+    <div id="popupChangePassword" class="resp_layer_pop hide">
+        <h4 class="title">비밀번호 변경</h4>
+        <form id='passUpdateForm' method='post' action='/login_process/popup_change_pass' target='actionFrame'>
+            <input type='hidden' name='password_mode' value='update'>
+            <div class="y_scroll_auto2">
+                <div class="layer_pop_contents v5">
+                    <h5 class="stitle">회원님의 소중한 개인정보 보호를 위해 비밀번호를 주기적으로 변경하시는 것이 좋습니다.</h5>
+                    <p class="desc Pb8">※ 비밀번호는 6~20자, 영문 대소문자 또는 숫자 특수문자 중 2가지 이상 조합.</p>
+                    <div class="resp_table_row input_form th_size3">
+                        <ul class="tr">
+                            <li class="th Pl5 Pr5">현재 비밀번호</li>
+                            <li class="td">
+                                <input type='password' name='old_password' value='' class='passwordField eng_only Wmax' />
+                            </li>
+                        </ul>
+                        <ul class="tr">
+                            <li class="th Pl5 Pr5">신규 비밀번호</li>
+                            <li class="td">
+                                <input type='password' name='new_password' value='' class='passwordField eng_only Wmax' />
+                            </li>
+                        </ul>
+                        <ul class="tr">
+                            <li class="th Pl5 Pr5">신규 비밀번호 <span class="Dib">확인</span></li>
+                            <li class="td">
+                                <input type='password' name='re_new_password' value='' class='passwordField eng_only Wmax' />
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="C Pt20 Fs15">
+                        <label><input type='checkbox' name='update_rate' value='Y' onclick='update_rate_checked();'> 개월 이후에 비밀번호를 변경하겠습니다.</label>
+                    </div>
+                </div>
+            </div>
+            <div class="layer_bottom_btn_area2 v2">
+                <ul class="basic_btn_area2">
+                    <li><button type="submit" class="btn_resp size_c color2">변경 완료</button></li>
+                    <li><button type="button" class="btn_resp size_c color5" onclick="hideCenterLayer()">취소</button></li>
+                </ul>
+            </div>
+            <a href="javascript:void(0)" class="btn_pop_close" onclick="hideCenterLayer()"></a>
+        </form>
+    </div>
+
+    <!-- 라이브러리로 교체, html_header.html 로 이동(2020-06-22 seonha) -->
+
+    <!-- ADN Tracker[공통] start -->
+    <script type="text/javascript">
+        var adn_param = adn_param || [];
+        adn_param.push([{
+            ui: '102396',
+            ut: 'Home'
+        }]);
+
+    </script>
+    <script type="text/javascript" async src="//fin.rainbownine.net/js/adn_tags_1.0.0.js"></script>
+    <!-- ADN Tracker[공통] end -->
+
+
+
+</body>
+
+</html>
+<!-- ================= #HTML_FOOTER :: END. 파일위치 : _modules/common/html_footer.html ================= -->
